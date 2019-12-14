@@ -1,6 +1,6 @@
 # cursouadeo
 
-A new Flutter project.
+Un nuevo proyecto de flutter
 
 ## Getting Started
 
