@@ -5,8 +5,15 @@ class ZamarripaPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("Hola, soy Zamarripa")
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Zamarripa"),
+      ),
+      body: Column(
+        children: <Widget>[
+
+        ],
+      ),
     );
   }
 }

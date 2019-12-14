@@ -26,6 +26,70 @@ class HomePage extends StatelessWidget {
             onTap: (){
               Navigator.pushNamed(context, "slider");
             },
+          ),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text("Medrano"),
+            trailing: Icon(Icons.arrow_right),
+            onTap: (){
+              Navigator.pushNamed(context, "medrano");
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text("Selene"),
+            trailing: Icon(Icons.arrow_right),
+            onTap: (){
+              Navigator.pushNamed(context, "selene");
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text("Carlos"),
+            trailing: Icon(Icons.arrow_right),
+            onTap: (){
+              Navigator.pushNamed(context, "carlos");
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text("Alexis"),
+            trailing: Icon(Icons.arrow_right),
+            onTap: (){
+              Navigator.pushNamed(context, "herrera");
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text("Paulina"),
+            trailing: Icon(Icons.arrow_right),
+            onTap: (){
+              Navigator.pushNamed(context, "paulina");
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text("Pacheco"),
+            trailing: Icon(Icons.arrow_right),
+            onTap: (){
+              Navigator.pushNamed(context, "pacheco");
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text("Zamarripa"),
+            trailing: Icon(Icons.arrow_right),
+            onTap: (){
+              Navigator.pushNamed(context, "zamarripa");
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text("Cosme"),
+            trailing: Icon(Icons.arrow_right),
+            onTap: (){
+              Navigator.pushNamed(context, "cosme");
+            },
           )
         ],
       ),

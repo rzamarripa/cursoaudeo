@@ -1,3 +1,10 @@
+import 'package:cursouadeo/carlos.dart';
+import 'package:cursouadeo/cosme.dart';
+import 'package:cursouadeo/herrera.dart';
+import 'package:cursouadeo/medrano.dart';
+import 'package:cursouadeo/pacheco.dart';
+import 'package:cursouadeo/paulina.dart';
+import 'package:cursouadeo/selene.dart';
 import 'package:cursouadeo/sliderpage.dart';
 import 'package:cursouadeo/zamarripa.dart';
 import 'package:flutter/material.dart';
@@ -20,6 +27,15 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomePage(),
         'alert': (context) => AlertPage(),
         'slider': (context) => SliderPage(),
+        'zamarripa': (context) => ZamarripaPage(),
+        'medrano': (context) => MedranoPage(),
+        'selene': (context) => SelenePage(),
+        'carlos': (context) => CarlosPage(),
+        'herrera': (context) => HerreraPage(),
+        'pacheco': (context) => PachecoPage(),
+        'paulina': (context) => PaulinaPage(),
+        'cosme': (context) => CosmePage(),
+        
       },
       onGenerateRoute: (settings) {
         print("Entré aquí");

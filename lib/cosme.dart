@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class PachecoPage extends StatelessWidget {
-  const PachecoPage({Key key}) : super(key: key);
+class CosmePage extends StatelessWidget {
+  const CosmePage({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pacheco"),
+        title: Text("Cosme"),
       ),
       body: Column(
         children: <Widget>[
