@@ -8,7 +8,7 @@ class SliderPage extends StatefulWidget {
 class _SliderPageState extends State<SliderPage> {
   
 
-  double _valorSlider = 500.0;
+  double _valorSlider = 100.0;
   bool _bloquearCheck = false;
 
   @override
@@ -73,13 +73,12 @@ class _SliderPageState extends State<SliderPage> {
       label: "Tamaño de la imagen",
       value: _valorSlider,
       min: 1,
-      max: 200,
+      max: 500,
       onChanged: (valor){
-        print(valor);
         if(!_bloquearCheck){
           setState(() {
             _valorSlider = valor;          
-          });
+          }); 
         }        
       },
     ); 

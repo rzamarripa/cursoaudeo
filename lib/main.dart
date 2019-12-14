@@ -1,4 +1,5 @@
 import 'package:cursouadeo/sliderpage.dart';
+import 'package:cursouadeo/zamarripa.dart';
 import 'package:flutter/material.dart';
 
 import 'homepage.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomePage(),
         'alert': (context) => AlertPage(),
         'slider': (context) => SliderPage(),
+        'zamarripa': (context) => ZamarripaPage(),
       },
       onGenerateRoute: (settings) {
         print("Entré aquí");
