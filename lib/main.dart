@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomePage(),
         'alert': (context) => AlertPage(),
         'slider': (context) => SliderPage(),
+
       },
       onGenerateRoute: (settings) {
         print("Entré aquí");
