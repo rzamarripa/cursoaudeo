@@ -7,10 +7,12 @@ class HerreraPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-                title: Text("YO", style: TextStyle(color: Colors.redAccent),),
+          title: Text("Herrera", style: TextStyle(color: Colors.white),),
       ),
-      body: Center(
-        child: Text("Hola soy Esteban Herrera"),
+      body:Column(
+        children: <Widget>[
+          
+        ],
       ),
     );
   }
