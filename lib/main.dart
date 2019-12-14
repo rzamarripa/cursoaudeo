@@ -1,3 +1,7 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
+
 import 'package:cursouadeo/carlos.dart';
 import 'package:cursouadeo/cosme.dart';
 import 'package:cursouadeo/herrera.dart';
@@ -7,7 +11,7 @@ import 'package:cursouadeo/paulina.dart';
 import 'package:cursouadeo/selene.dart';
 import 'package:cursouadeo/sliderpage.dart';
 import 'package:cursouadeo/zamarripa.dart';
-import 'package:flutter/material.dart';
+
 
 import 'homepage.dart';
 import 'alertpage.dart';
@@ -18,6 +22,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate
+      ],
+      supportedLocales: [
+        const Locale("es", "ES")
+      ],
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       //home: Text("Hola"),
