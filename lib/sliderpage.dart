@@ -8,7 +8,7 @@ class SliderPage extends StatefulWidget {
 class _SliderPageState extends State<SliderPage> {
   
 
-  double _valorSlider = 500.0;
+  double _valorSlider = 100.0;
   bool _bloquearCheck = false;
 
   @override
