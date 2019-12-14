@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.person),
             title: Text("Sliders"),
-            trailing: Icon(Icons.account_balance),
+            trailing: Icon(Icons.arrow_right),
             onTap: (){
               Navigator.pushNamed(context, "slider");
             },
